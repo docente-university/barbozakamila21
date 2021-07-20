@@ -1,0 +1,49 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background:#1C96C4; 
+font-family:  Georgia, "Times New Roman", Times, serif;
+}
+/*Propiedades para la cabecera*/
+#cabecera {
+background-color: #7C8B93;
+color: #251A17;
+padding: 1%;
+}
+/*Propiedades para la columna*/
+#columnas {
+background-color: #444957;
+overflow: hidden;
+padding-bottom: 1%;
+}
+/*Extender o comprimir nuestro contenedor */
+#contenedor {
+margin: 10px auto;
+width: 100%;
+}
+#menu_2{
+background-color:#444957; 
+float: left;
+margin-bottom: -32767px;
+max-width:-moz-cal(92% - 120px);
+max-width:-webkit-calc(92% - 120px);
+max-width:calc(92% - 120px);
+padding: 2%;
+padding-bottom: 32767px;
+width: 70%;
+}
+#menu_1{
+background-color:#2C3446;
+
+float: left;
+margin-bottom: -32767px;
+min-width: 120px;
+padding: 2%;
+padding-bottom: 32767px;
+width: 21%;
+}
+
+
+
